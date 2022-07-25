@@ -1,14 +1,14 @@
 import unittest
 
 from case_result import case_result_dct as c_dct
-from my_solution import likes
+from solution import get_count
 
 
 class TestFn(unittest.TestCase):
     def test_case_result(self):
-        for r, c in c_dct.items():
+        for c, r in c_dct.items():
             self.assertEqual(
-                likes(c), r, 'There is an error'
+                get_count(c), r, 'There is an error'
             )
 
 
