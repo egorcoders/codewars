@@ -1,7 +1,7 @@
 import unittest
 
 from case_result import case_result_dct as c_dct
-from my_solution import likes
+from solution import likes
 
 
 class TestFn(unittest.TestCase):
