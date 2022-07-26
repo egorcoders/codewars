@@ -1,7 +1,7 @@
 # my solution
 def get_count(sentence):
     lst = ['a', 'e', 'i', 'o', 'u']
-    return len(list(i for i in sentence if i in lst))
+    return sum(1 for i in sentence if i in lst)
 
 
 # best solution
