@@ -1,9 +1,8 @@
-
 # my solution
-def wave(str):
-    return [str[:i] + str[i].upper() + str[i + 1:] for i, v in enumerate(str) if str[:i] + str[i].upper() + str[i + 1:] != str]
+def remove_every_other(my_list):
+    return [v for i, v in enumerate(my_list) if not i % 2]
 
 
 # best solution
-def wave2(str):
-    return [str[:i] + str[i].upper() + str[i+1:] for i in range(len(str)) if str[i].isalpha()]
+def remove_every_other(my_list):
+    return my_list[::2]
