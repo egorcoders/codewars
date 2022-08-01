@@ -1,9 +1,8 @@
-
 # my solution
-def wave(str):
-    return [str[:i] + str[i].upper() + str[i + 1:] for i, v in enumerate(str) if str[:i] + str[i].upper() + str[i + 1:] != str]
+from math import ceil
 
+
+def century(year):  return ceil(year / 100)
 
 # best solution
-def wave2(str):
-    return [str[:i] + str[i].upper() + str[i+1:] for i in range(len(str)) if str[i].isalpha()]
+def century(year):  return (year + 99) // 100
