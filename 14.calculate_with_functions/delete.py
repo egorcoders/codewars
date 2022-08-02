@@ -1,69 +1,47 @@
-# def calculate(operations, n):
-#     if not operations:
-#         return n
-#     if operations['sign'] == '-':
-#         return n - operations['value']
+# print('x y z w')
+# for x in range(0, 2):
+#     for y in range(0, 2):
+#         for w in range(0, 2):
+#             for z in range(0, 2):
+#                 if not(not(x == (not(y))) or ((x and w) == z):
+#                     print(x, y, z, w)
+
+# (w → z) ∧ ((y → x) ≡ (z → y))
+# (not w or z) and ((not y or x) == (not z or y))
+
+# (x ≡ ¬y) → ((x ∧ w) ≡ z)
+# if not(not(x == (not y)) or ((x and w) == z)):
+
+# a = 0
+# b = 8
+
+# # if (a and b) < 10:
+# #     print(a, b)
+
+# if a < 10 and b < 10:
+#     print(a, b)
+
+# # Отрицание ¬	not()
+# if a:
+#     print('Переменная есть')
+# if not a:
+#     print('Переменной нет')
+# # if a не существует или пустая коробочка:
+#     print('такой переменной нету')
+
+# Отрицание ¬	not()
+# Логическое умножение ∧	and
+# Логическое сложение ∨	or
+# Следование A ⟶ B	not(A) or B
+# Равносильность ≡	==
+
+# (w → z) ∧ ((y → x) ≡ (z → y))
 
 
-# five = lambda operations=None : calculate(operations, 5)
-# seven = lambda operations=None : calculate(operations, 7)
-
-
-# get_operation = lambda operation, x: {'sign': operation, 'value': x}
-# minus = lambda x: get_operation('-', x)
-
-# seven = lambda operations=None : calculate(operations, 7)
-
-
-# def calculate(operations, n):
-#     if not operations:
-#         return n
-#     if operations['sign'] == '-':
-#         return n - operations['value']
-
-
-# def seven(operations=None):
-#     return calculate(operations, 7)
-
-
-# def five(operations=None):
-#     return calculate(operations, 5)
-
-
-# def get_operation(operation, x):
-#     return {
-#         'sign': operation,
-#         'value': x
-#     }
-
-
-# def minus(x):
-#     return get_operation('-', x)
-
-
-
-
-
-def calculate(operation, n):
-    if not operation:
-        return n
-    if operation['symbol'] == '+':
-        return n + operation['number']
-
-
-def seven(operation=None):
-    return calculate(operation, 7)
-
-
-def get_operation(symbol, n):
-    return {
-        'symbol': symbol,
-        'number': n,
-    }
-
-
-def plus(n):
-    return get_operation('+', n)
-
-
-print(seven(plus(seven())))
+print('x y z w')
+for x in range(2):
+    for y in range(0, 2):
+        for w in range(0, 2):
+            for z in range(0, 2):
+                if (not(w) or z) and ((not(y) or x) == (not(z) or y)):
+                    print(x, y, z, w)
