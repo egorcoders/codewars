@@ -1,9 +1,26 @@
-# 8 kyu | Century From Year
+# 5 kyu | Calculating with Functions
 
 ## Introduction
 
-The first century spans from the year 1 up to and including the year 100, the second century - from the year 101 up to and including the year 200, etc.
+This time we want to write calculations using functions and get the results. Let's have a look at some examples:
+
+```en
+seven(times(five()))  # 35
+four(plus(nine()))  # 13
+eight(minus(three()))   # 5
+six(divided_by(two()))  # 3
+```
 
 ## Task
 
-Given a year, return the century it is in.
+Requirements:
+
+There must be a function for each number from 0 ("zero") to 9 ("nine")
+There must be a function for each of the following mathematical operations: plus, minus, times, divided_by
+Each calculation consist of exactly one operation and two numbers
+The most outer function represents the left operand, the most inner function represents the right operand
+Division should be integer division. For example, this should return 2, not 2.666666...:
+
+```en
+eight(divided_by(three()))
+```
