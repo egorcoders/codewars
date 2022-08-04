@@ -1,5 +1,7 @@
 # Решение задач на Codewars
 
+[![Python](https://img.shields.io/badge/-Python-464641?style=flat-square&logo=Python)](https://www.python.org/)
+
 ## Описание
 
 Решение задач разных уровней сложности на платформе Codewars, чтобы учиться, тренироваться и улучшать навыки программирования.
