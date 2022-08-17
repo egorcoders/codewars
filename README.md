@@ -4,20 +4,28 @@
 
 ## Описание
 
-Решение задач разных уровней сложности на платформе Codewars, чтобы учиться, тренироваться и улучшать навыки программирования.
+Решение задач разных уровней сложности на `https://www.codewars.com/`, отработки навыков программирования.
 
-## Технлологии
+## Установка
 
-- Python 3.9.5
+Клонировать репозиторий на локальный компьютер и перейти в его директорию:
 
-## Как запустить проект
+```python
+git clone git@github.com:egorcoders/codewars.git
 
-Клонируйте репозиторий к себе на компьютер и перейдите в его директорию:
+cd codewars
+```
 
-```git clone git@github.com:egorcoders/codewars.git```
+Запустить файл проекта:
 
-```cd codewars```
+```python
+# Windows
+python file_name.py
+
+# Mac/Linux
+python3 file_name.py
+```
 
 ## Ссылка на ресурс
 
-```https://www.codewars.com/```
+`https://www.codewars.com/`
