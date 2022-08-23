@@ -8,7 +8,7 @@ def string_to_tuple(s: str):
     if not s:
         return 'Строка пустая.'
     elif not s.isalpha():
-        return 'Строка содержит недопустимые символы.'
+        return 'Строка содержит недопустимые символы. '
     else:
         lst = list(s.lower())
         a = max(set(lst), key=lst.count)
