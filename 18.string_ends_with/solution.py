@@ -4,6 +4,6 @@ def solution_function(string, ending):
 
 
 # best solution
-def solution_function(string, ending):
+def solution_function2(string, ending):
     return string.endswith(ending)
 

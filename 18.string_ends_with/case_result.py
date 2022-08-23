@@ -1,7 +1,7 @@
-from solution import solution
+from solution import solution_function
 
 case_result_lst = [
-    [solution('abcde', 'cde'), True, 'test 1'],
-    [solution('abcde', 'abc'), False, 'test 2'],
-    [solution('abcde', ''), True, 'test 3'],
+    [solution_function('abcde', 'cde'), True, 'test 1'],
+    [solution_function('abcde', 'abc'), False, 'test 2'],
+    [solution_function('abcde', ''), True, 'test 3'],
 ]

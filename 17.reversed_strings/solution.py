@@ -1,5 +1,5 @@
 # my solution
-def solution(string):
+def revised_strings(string):
     return string[::-1]
 
 

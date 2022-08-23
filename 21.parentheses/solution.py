@@ -10,5 +10,3 @@ def parentheses_order(s: str) -> bool:
             s = s.replace('()', '')
         else:
             return not s
-
-print(parentheses_order('(())'))

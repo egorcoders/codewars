@@ -9,5 +9,5 @@ def printer_error(s):
 
 
 # best solution
-def printer_error(s):
+def printer_error2(s):
     return '{}/{}'.format(len(sub('[a-m]','',s)), len(s))
