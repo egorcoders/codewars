@@ -2,4 +2,4 @@
 
 ## Introduction
 
-Complete the solution so that it reverses the string passed into it.
+Проверьте, является ли строка r окончанием строки s.

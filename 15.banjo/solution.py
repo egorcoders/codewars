@@ -10,3 +10,11 @@ def are_you_playing_banjo2(name):
         ' plays ' if name[0].lower() == 'r'
         else ' does not play '
     ) + 'banjo'
+
+
+def are_you_playing_banjo3(s):
+    return (
+        f'{s} plays banjo'
+        if s.lower().startswith('r')
+        else f'{s} does not play banjo'
+    )
