@@ -4,7 +4,7 @@ def get_count(sentence):
     return sum(1 for i in sentence if i in lst)
 
 
-# best solution
+# best solution 
 def get_count2(sentence):
     return sum(1 for let in sentence if let in "aeiouAEIOU")
 
