@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/-Python-464641?style=flat-square&logo=Python)](https://www.python.org/)
 [![Codewars](https://img.shields.io/badge/Codewars-464646?style=flat-square&logo=codewars)](https://www.codewars.com/)
 
-## Описание
+## Описание работы
 
 Решение задач разных уровней сложности на `https://www.codewars.com/`, отработки навыков программирования.
 
