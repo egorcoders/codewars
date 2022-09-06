@@ -18,9 +18,10 @@ def elevator(s):
     m, n, k = [int(i) for i in s.split(' ')]
     up = 200
     down = 100
-    k_floors = range(1, m, k)
+    k_floors = range(1, m + 1, k)
+    # return [i for i in k_floors]
     return min([
-        up * (n - i) if n > i
+        up * (n - i) if n >= i
         else down * (i - n)
         for i in k_floors
     ])
