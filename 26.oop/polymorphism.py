@@ -27,7 +27,7 @@ class Truck(Vehicle):
         return 'Грузовик едет очень медленно.'
 
 
-c = Car(25, 30)
-t = Truck(80, 90)
-print(c.drive())
-print(t.drive())
+# c = Car(25, 30)
+# t = Truck(80, 90)
+# print(c.drive())
+# print(t.drive())
