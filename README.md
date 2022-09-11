@@ -27,6 +27,6 @@ python file_name.py
 python3 file_name.py
 ```
 
-## Ресурс
+## Ресурсы
 
 `https://www.codewars.com/`
